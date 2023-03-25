@@ -1,5 +1,6 @@
 # POST-TEST-2-WEB
-
+# NAMA : DZAKIROH NAWAAL NABILAH
+# NIM  : 2109116003
 registrasi
 
 ![h1](https://user-images.githubusercontent.com/119152980/227730826-5cab288e-8904-48ce-a9f8-cf54659ce60d.png)
