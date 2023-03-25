@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KELUHANPELANGGAN</title>
+</head>
+    <!-- Menghubungkan ke CSS -->
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div class="bg">
+    <nav class="menu">
+        <img src="img/log.png" alt="logo.png">
+        <a href="index.html">BERANDA</a>
+        <a href="film.html">FILM</a>
+        <a href="log.html">LOGIN</a>
+        <a href="regis.html">REGISTRASI</a>
+        <a href="profil.html">PROFIL</a>
+    </nav> 
+    <!-- FORM -->
+    <div class="konten2">
+    <div class="keluh">
+    <center><br><h1>FORM LAYANAN KELUHAN PELANGGAN</h1> 
+    <p>Ini merupakan fitur terbaru dari GoToCinema! yang akan melayani keluh kesah pelanggan setia terkait performa sistem.</p></center><br>
+    <form method="post">
+        <label for="nama"></label>
+        <input type="text" id="nama" required placeholder="Masukan Nama Lengkap"/>
+        <br>
+        <label for="email"></label>
+        <input type="email" id="email" required placeholder="Masukan Email"/>
+        <br>
+        <label for="gender">Jenis Kelamin?</label>
+        <input type="radio" name="gen" id="gender1" value="Laki-Laki">Laki-Laki
+        <input type="radio" name="gen" id="gender2" value="Perempuan">Perempuan
+        <br>
+        <label for="age">Kategori Usia</label>
+        <select id="usia" required>
+          <option value="Dibawah Umur">Dibawah Umur</option>
+          <option value="17+">17+</option>
+          <option value="21+">21+</option>
+        </select>
+        <br>
+        <label for="jenis">Jenis Keluhan Apa Yang Anda Alami?</label><br>
+        <input type="checkbox" name="kel" id="1" value="Penggunaan Akun">Penggunaan Akun<br>
+        <input type="checkbox" name="kel" id="2" value="Pemesanan Tiket">Pemesanan Tiket<br>
+        <input type="checkbox" name="kel" id="3" value="Sistem Yang Lambat">Sistem Yang Lambat<br>
+        <input type="checkbox" name="kel" id="4" value="Informasi Film Yang Kurang">Informasi Film Yang Kurang<br>
+        <br>
+        <label for="kalimat">Tuliskan Keluhan Anda Secara Rinci</label>
+        <br>
+        <textarea name="rinci" cols="80" rows="6" id="komplen" placeholder= "Harap Isi Dengan Sejujurnya"></textarea>
+        <br>
+        <button type="submit" id="mengeluh">Kirim</button>
+      </form>
+      </div> 
+      </div> 
+
+</body>
+<!-- Menghubungkan ke js -->
+<script src="js/keluh.js"></script>
+</html>

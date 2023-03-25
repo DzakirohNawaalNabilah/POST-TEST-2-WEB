@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PESANTIKET</title>
+</head>
+    <!-- Menghubungkan ke CSS -->
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div class="bg">
+    <nav class="menu">
+        <img src="img/log.png" alt="logo.png">
+        <a href="index.html">BERANDA</a>
+        <a href="film.html">FILM</a>
+        <a href="log.html">LOGIN</a>
+        <a href="regis.html">REGISTRASI</a>
+        <a href="profil.html">PROFIL</a>
+    </nav> 
+    <div class="head">
+        <center><br><h1>PEMESANAN TIKET NONTON</h1> 
+         <br><p>Silahkan Pilih Film Yang Ingin Ditonton!</p>
+    </div>
+    <div class="container">
+        <form action="#">
+               <table>
+                <tr>
+                    <td>Judul Film</td>
+                    <td><select>
+                        <option>Black Adam</option>
+                        <option>Spiderman: No Way Home</option>
+                        <option>Sri Asih</option>
+                    </select>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tanggal</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Jadwal</td>
+                    <td><input type="checkbox" name="w">13.00 WITA <br>
+                    <input type="checkbox" name="w">16.45 WITA <br>
+                    <input type="checkbox" name="w">21.00 WITA <br>
+                    <input type="checkbox" name="w">23.30 WITA</td>
+                </tr>
+                <tr>
+                    <td>Kode Promo</td>
+                    <td><input type="text" size="5"></td>
+                </tr>
+                <tr>
+                    <td>Pembayaran</td>
+                    <td><input type="radio" name="py">On The Spot
+                    <input type="radio" name="py">Banking</td>
+                </tr>
+                <tr>
+                    <td>Bukti Pembayaran</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Kirim"></td>
+                </tr>
+               </table>
+        </form>
+
+    </div>  
+</div>
+
+</body>
+</html>

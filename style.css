@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+}
+/* INI PUNYA HALAMAN BERANDA */
+/* MENU */
+nav{
+    background-color: rgb(40, 35, 35);
+    color: white;
+    font-family: sans-serif;
+    padding: 10px 0px 50px 50px;
+}
+/* LOGO */
+nav img{
+    width: 70px;
+    margin-right: 20px;    
+}
+/* TULISAN PADA MENU */
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+nav a:hover{
+    background-color: rgb(255, 215, 0);
+    color:rgb(10, 10, 3);
+    box-shadow: 8px 3px 2px 5px #000;
+}
+/* JUDUL */
+.judul{
+    background-image: url("img/bg2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+}
+.judul h1{
+    color: white;
+    text-shadow: 2px 1px 1px rgb(99, 99, 7);
+    font-size: 35px;
+}
+.judul p{
+    color: white;
+    font-size: 20px;
+}
+.judul h2{
+    color: white;
+    font-size: 25px;
+}
+/* FITUR */
+/* FITUR1 */
+.fitur1{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: rgb(87, 87, 86);
+    
+} 
+.fitur1 h4{
+    margin-left: 150px;
+    color: red;
+}
+.fitur1 p{
+    margin-left: 150px;
+    color: white;
+    text-align: justify;
+}
+.fitur1 img{
+    margin-left: 880px;
+    width: 500px;
+}
+/* FITUR2 */
+.fitur2{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: rgb(87, 87, 86);
+}
+.fitur2 h4{
+    margin-left: 950px;
+    color: red;
+    text-align: justify;
+}
+.fitur2 p{
+    margin-left: 950px;
+    color: white;
+    text-align: justify;
+}
+.fitur2 img{
+    margin-left: 125px;
+    width: 540px;
+
+}
+/* FITUR3 */
+.fitur3{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: rgb(87, 87, 86);
+}
+.fitur3 h4{
+    margin-left: 135px;
+    color: red;
+}
+.fitur3 p{
+    margin-left: 135px;
+    color: white;
+    text-align: justify;
+}
+.fitur3 img{
+    margin-left: 880px;
+    width: 500px;
+}
+/* FITUR4 */
+.fitur4{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: rgb(87, 87, 86);
+}
+.fitur4 h4{
+    margin-left: 950px;
+    color: red;
+}
+.fitur4 p{
+    margin-left: 950px;
+    color: white;
+    text-align: justify;
+}
+.fitur4 img{
+    margin-left: 130px;
+    width: 560px;
+}
+
+
+/* INI PUNYA HALAMAN FILM */
+/* FILM YANG SEDANG TAYANG */
+.bg{
+    background-image: url("img/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+}
+.isi1 h1{ 
+    color: white;
+  
+}
+.gambar1{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin: 80px;
+   align-items: center;
+   grid-gap: 40px;
+   text-align: center;
+   transition: transform;
+   width: fit-content;
+}
+.gambar1 > article{
+    object-fit: cover; 
+    box-shadow: 10px 5px 5px 4px rgb(202, 32, 32);
+    border-radius: 30px;
+    background-color: black;
+}
+.gambar1 > article img{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; 
+}
+.gambar1 > article:hover{
+    transform: scale(1.3);
+}
+
+/* FILM YANG SEGERA TAYANG */
+.isi2 h1{
+    color: white;
+}
+.gambar2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 80px;
+    align-items: center;
+    grid-gap: 40px;
+    text-align: center;
+    transition: transform;
+    width: fit-content;
+    object-fit: cover;
+ }
+ .gambar2 > article{
+     box-shadow: 10px 5px 5px 4px rgb(202, 32, 32);
+     border-radius: 30px;
+     background-color: black; 
+     width: fit-content;
+ }
+ .gambar2 > article img{
+     border-top-right-radius: 30px;
+     border-top-left-radius: 30px;
+     border-bottom-left-radius: 30px;
+     border-bottom-right-radius: 30px;
+ }
+ .gambar2 > article:hover{
+     transform: scale(1.3);
+ }
+
+/* INI PUNYA HALAMAN PROFIL */
+/* KONTEN */
+.par1{
+    padding-bottom: 5px;
+    padding-top: 20px;
+    text-align: justify;
+    font-size: large;
+    color: white;
+}
+.par2{
+    padding-bottom: 5px;
+    padding-top: 20px; 
+    text-align: justify;
+    font-size: large;
+    color: white;
+}
+.par2 img{
+    width: 400px;
+    height:550px;
+}
+.par2 p{
+    font-size: 20px;
+    color: white;
+}
+/* FOOTER */
+footer{
+    background-color: rgb(40, 35, 35);
+    color: white;
+    font-family: sans-serif;
+    padding: 40px 0 20px 40px;
+}
+

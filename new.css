@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+}
+/*  INI PUNYA HALAMAN TIKET */
+body{
+    background-image: url("img/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+    
+}
+.konten{
+    width: 600px;
+    height: 500px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px;
+    transform: translate(-50%, -50%);
+}
+
+.log form label{
+    display: block;
+    font-size: 16px;
+}
+
+.log input{
+     width: 350px;
+     margin: 10px;
+     border-radius: 5px;
+     border: 1px solid grey;
+     padding: 15px;
+}
+
+.log button{
+    padding: 8px;
+    background-color: rgb(71, 72, 59);
+    margin-top: 55px;
+    border-radius: 5px;
+    width: 200px;
+    color: white;
+    cursor: pointer;
+}
+
+/* INI PUNYA HALAMAN BELI */
+.head h1{
+    color: white;
+    text-shadow: 2px 1px 1px rgb(99, 99, 7);
+    font-size: 35px;
+}
+.head p{
+    color: white;
+    padding-bottom: 50px;
+}
+.container{
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 450px;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+/* INI PUNYA HALAMAN USER */
+.but button{
+    background-color: rgb(71, 72, 59);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    width: 300px;
+    height: 100px;
+    transform: translate(120%, 70%);
+    margin: 50px;
+}
+
+/* INI PUNYA HALAMAN KELUH */
+.konten2{
+    width: 800px;
+    height: 680px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 30px;
+    transform: translate(-50%, -50%);
+}
+
+.keluh form label{
+    padding-left: 2px;
+    font-size: 16px;
+    color: white;
+}
+
+.keluh input{
+     width: 350px;
+     margin: 10px;
+     border-radius: 5px;
+     border: 1px solid grey;
+     padding: 15px;
+}
+
+.keluh input[type="radio"]{
+    width: 15px;   
+}
+
+.keluh input[type="checkbox"]{
+    width: 15px;
+}
+.keluh button{
+    padding: 8px;
+    background-color: rgb(71, 72, 59);
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 200px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+/* INI PUNYA KOMPLEN */
+.head2{
+    width: 600px;
+    height: 650px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 30px;
+    transform: translate(-50%, -50%);
+}
+.atas h1{
+    color: red;
+}
